@@ -1,0 +1,149 @@
+@import "./assets/fonts/stylesheet.css";
+
+
+body {
+  font-family: 'Helvetica Neue',cursive;
+  font-size: 1rem;
+  line-height: 1.3rem;
+  height:100%;
+  background-color: #220440;
+}
+
+h1{
+  text-align:center;
+  color:white;
+}
+.search-form{
+  display:flex;
+  flex-direction:column;
+  background-color:#1B93C2;
+  justify-content: center;
+  padding:10px;
+  border-radius: 8px;
+  width: 640px;
+  margin: 0 auto ;
+}
+.search-options {
+  display:flex;
+  justify-content:space-evenly;
+  align-items: center;
+  height: 80px;
+  margin:  0px 30px;
+}
+
+.search-button{
+  display:flex;
+  justify-content: flex-end;
+}
+button[type=submit] {
+  background-color: #DF1765;
+  border-width:0;
+  border-radius: 8px;
+  padding:10px;
+  color:white;
+  font-weight: bold;
+  font-size: 20px;
+
+}
+button[type=submit]:hover {
+  box-shadow: 0 0 30px rgba(57, 57, 57, 0.1);
+  background-color: #c01557;
+  border-color: #1f6063;
+  cursor: pointer;
+}
+
+.input-container{
+  display:flex;
+  flex-direction: column;
+  font-weight:600;
+}
+
+input{
+  padding:8px 2px;
+  border:.0625rem solid #b2b2bf;
+  border-radius: 2px;
+
+}
+input:focus {
+  border-color: red;
+}
+.input-component{
+  padding: 8px;
+  font-size: 14px;
+  margin-right: 5px;
+} 
+
+/*---RESULTS--*/
+
+.flights-list{
+  width:660px;
+  margin: 0 auto;
+  padding:10px;
+}
+
+.flight-item{
+  display:flex;
+  border-radius: 4px;
+  border-color: #919191;
+  background-color:white;
+  justify-content: space-between;
+  border-radius:6px;
+  padding:10px;
+}
+.flight-block-left{
+  align-items: center;
+  flex:1;
+  justify-content: space-between;
+  padding-right: 10px;
+
+}
+.flight-block-right{
+  display:flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+ul{
+  list-style: none;
+}
+.flight-block-line{
+  display:flex;
+  justify-content: space-between;
+
+}
+.flight-time{
+  font-size: bold;
+}
+.flight-company{
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  color: #919191;
+  border-width: 1px;
+}
+
+
+.flight-block-right{
+  width: 180px;
+  background-color: #EDECEC;
+  display: flex;
+  justify-content: center;
+  padding:10px
+}
+.flight-item-cta{
+  background-color:  #38BA8D;
+  border-width:0px;
+  border-radius: 4px;
+  padding:8px;
+  font-size: 16px;
+  font-weight:700;
+  color:white;
+  width: 150px;
+}
+
+.flight-item-cta:hover {
+  box-shadow: 0 0 30px rgba(57, 57, 57, 0.1);
+  background-color:  #2c9b74;
+  border-color: #2c9b74;
+  cursor: pointer;
+}

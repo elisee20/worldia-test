@@ -1,0 +1,92 @@
+[
+    {
+        "id": "X0011",
+        "departureTime": "2020-10-28 16:00:00",
+        "arrivalTime": "2020-10-28 17:30:00",
+        "departureAirport": "PARIS ORLY",
+        "returnAirport": "BARCELONA EL PRAT",
+        "companyName": "Air France",
+        "flightCode": "AF1023",
+        "price": "148 €"
+    },
+    {
+        "id": "X0012",
+        "departureTime": "2020-10-29 12:30:00",
+        "arrivalTime": "2020-10-29 14:00:00",
+        "departureAirport": "PARIS ORLY",
+        "returnAirport": "BARCELONA EL PRAT",
+        "companyName": "Air France",
+        "flightCode": "AF1024",
+        "price": "148 €"
+    },
+    {
+        "id": "X0013",
+        "departureTime": "2020-10-29 13:00:00",
+        "arrivalTime": "2020-10-29 14:30:00",
+        "departureAirport": "PARIS ORLY",
+        "returnAirport": "BARCELONA EL PRAT",
+        "companyName": "Vueling",
+        "flightCode": "VY1024",
+        "price": "148 €"
+    },
+    {
+        "id": "X0014",
+        "departureTime": "2020-10-29 13:30:00",
+        "arrivalTime": "2020-10-29 15:00:00",
+        "departureAirport": "PARIS ORLY",
+        "returnAirport": "BARCELONA EL PRAT",
+        "companyName": "Vueling",
+        "flightCode": "VY1026",
+        "price": "136 €"
+    },
+    {
+        "id": "X0015",
+        "departureTime": "2020-10-29 13:30:00",
+        "arrivalTime": "2020-10-29 15:00:00",
+        "departureAirport": "PARIS ORLY",
+        "returnAirport": "BARCELONA EL PRAT",
+        "companyName": "Air France",
+        "flightCode": "AF1026",
+        "price": "146 €"
+    },
+    {
+        "id": "X0016",
+        "departureTime": "2020-10-29 13:40:00",
+        "arrivalTime": "2020-10-29 15:10:00",
+        "departureAirport": "PARIS ORLY",
+        "returnAirport": "BARCELONA EL PRAT",
+        "companyName": "Air France",
+        "flightCode": "AF1027",
+        "price": "170 €"
+    },
+    {
+        "id": "X0017",
+        "departureTime": "2020-10-29 14:00:00",
+        "arrivalTime": "2020-10-29 15:30:00",
+        "departureAirport": "PARIS ORLY",
+        "returnAirport": "BARCELONA EL PRAT",
+        "companyName": "Air France",
+        "flightCode": "AF1028",
+        "price": "160 €"
+    },
+    {
+        "id": "X0031",
+        "departureTime": "2020-10-28 16:10:00",
+        "arrivalTime": "2020-10-28 17:40:00",
+        "departureAirport": "PARIS ROISSY",
+        "returnAirport": "BARCELONA EL PRAT",
+        "companyName": "Air France",
+        "flightCode": "AF1033",
+        "price": "148 €"
+    },
+    {
+        "id": "X0032",
+        "departureTime": "2020-10-29 12:40:00",
+        "arrivalTime": "2020-10-29 14:10:00",
+        "departureAirport": "PARIS ROISSY",
+        "returnAirport": "BARCELONA EL PRAT",
+        "companyName": "Air France",
+        "flightCode": "AF1034",
+        "price": "148 €"
+    }
+]
